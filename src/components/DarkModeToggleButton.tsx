@@ -29,7 +29,7 @@ const DarkModeToggleButton = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="flex justify-center items-center m-auto text-lg w-fit dark:bg-white bg-gray-700 hover:bg-gray-800 dark:hover:bg-blue-200 transition-color duration-200 ease-in-out rounded-lg text-gray-50 font-semibold py-3 px-4"
+      className="flex justify-center fixed top-2 right-2 items-center m-auto text-lg w-fit dark:bg-white bg-gray-700 hover:bg-gray-800 dark:hover:bg-blue-200 transition-color duration-200 ease-in-out rounded-lg text-gray-50 font-semibold py-3 px-4 z-10"
     >
       {isDarkMode ? <FaMoon color="black" /> : <FaSun color="white" />}
     </button>
