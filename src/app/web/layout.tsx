@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Elson Ramos - Web Developer",
-  description: "Elson Ramos is a Ontario-based web developer who specializes in creating performant full stack apps using Node, React and React Native",
+  description: "Elson Ramos is a Ontario-based web developer who specializes in creating performant full stack apps using Node.js, React and React Native",
 };
 
 export default function RootLayout({
@@ -10,5 +10,5 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <div>{children}</div>;
+  return children;
 }

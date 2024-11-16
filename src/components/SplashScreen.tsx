@@ -32,7 +32,7 @@ const SplashScreen = ({ finishLoading }: SplashScreenProps) => {
           typewriter
             .typeString(`<span class="text-white text-xl">Elson Ramos </span>`)
             .pauseFor(500)
-            .typeString(`<span class="text-white text-xl">- <strong>Web Developer</strong></span>`)
+            .typeString(`<span class="text-white text-xl tracking-widest">- <strong>Web Developer</strong></span>`)
             .start();
         }}
       />
