@@ -1,9 +1,10 @@
 import AnimatedDown from "../AnimatedDown";
 import Image from "next/image";
+import TitleSection from "../TitleSection";
 
 const Presentation = () => {
   return (
-    <section className="flex items-center justify-center p-20 pt-32 md:h-screen relative">
+    <section className="flex items-center justify-center p-20 md:h-screen relative">
       <div className="container mx-auto max-w-screen-lg flex md:flex-row justify-between md:gap-8 gap-4 flex-col-reverse">
         <div className="md:w-1/2 content-center">
           <Image
@@ -15,11 +16,9 @@ const Presentation = () => {
           />
         </div>
         <div className="md:w-1/2 content-center md:p-4 p-2">
-          <p className="md:text-2xl text-3xl font-medium text-slate-700 dark:text-gray-300 md:mb-5 mb-3 font-sans tracking-wider">
-            Hi, I'm Elson Ramos.
-          </p>
+          <TitleSection text="Hi, I'm Elson Ramos!" />
           <p className="md:text-lg text-base font-medium text-slate-700 dark:text-gray-300 md:mb-5 mb-3 text-justify tracking-wide">
-            I'm a{" "}
+            I&apos;m a{" "}
             <span className="font-bold hover:text-sky-500">web developer</span>{" "}
             based in London, Ontario, with a background in building web and
             mobile applications. My passion lies in learning new technologies

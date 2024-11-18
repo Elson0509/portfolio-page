@@ -15,11 +15,11 @@ const AnimatedDown = () => {
         rotate: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,90,180,270,360],
       }}
       transition={{
-        duration: 7,
+        duration: 9,
         repeat: Infinity,
       }}
     >
-      <FaArrowDown className="text-black dark:text-white" size='1.8rem'/>
+      <FaArrowDown className="text-black dark:text-white" size='1.5rem'/>
     </motion.div>
   );
 };
